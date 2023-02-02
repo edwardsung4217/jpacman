@@ -35,9 +35,10 @@ dependencies {
 
     compileOnly "com.github.spotbugs:spotbugs-annotations:$spotbugsAnnotationsVersion"
 
-    testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.4.1"
     testCompile "org.mockito:mockito-core:$mockitoVersion"
     testCompile "org.assertj:assertj-core:$assertjVersion"
+
 }
 
 task defaultTest(type: Test) {
